@@ -4,10 +4,10 @@ import "./Header.css";
 import { BiSearchAlt, BiUser,  } from 'react-icons/bi';
 import { BsHeartFill, BsCart2, } from "react-icons/bs";
 
-import logo from "../huarapearimagenes/waapearlogoo.png"
-import callIcon from "../huarapearimagenes/gaaa.png"
+import logo from "../Assets/huarapearimagenes/waapearlogoo.png"
+import callIcon from "../Assets/huarapearimagenes/gaaa.png"
 
-function Header() {
+const Header = () => {
   return (
     <div className='header-container'>
         

@@ -1,10 +1,12 @@
 import React from 'react'
 import Header from '../Header/Header'
+import Navbar from '../Navbar/Navbar'
 
-function Home() {
+const Home = () => {
   return (
     <div>
         <Header/>
+        <Navbar/>
     </div>
   )
 }
