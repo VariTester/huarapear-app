@@ -1,0 +1,35 @@
+.display-first-section {
+    position: relative;
+    background-color: #DEE9CF;
+    z-index: -20;
+    overflow: hidden;
+}
+.content-sec-one{
+    position: absolute;
+    right: 30px;
+    top: 110px;
+}
+.content-sec-one h2{
+    font-size: 38px;
+    color: #FF0101;
+}
+
+.content-sec-one h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 65px;
+}
+
+.content-sec-one h3{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: right;
+}
+
+.shop-now-btn{
+    font-weight: 500;
+    color: #41503F;
+    display: flex;
+    align-items: center;
+}
