@@ -10,18 +10,21 @@
     top: 110px;
 }
 .content-sec-one h2{
-    font-size: 38px;
+    /* font-size: 38px; */
+    font-size: 40px;
     color: #FF0101;
 }
 
 .content-sec-one h1{
-    font-size: 100px;
+    /* font-size: 100px; */
+    font-size: 70px;
     font-weight: 900;
     line-height: 65px;
 }
 
 .content-sec-one h3{
-    font-size: 45px;
+    /* font-size: 45px; */
+    font-size: 30px;
     font-weight: 800;
     line-height: 70px;
     text-align: right;
