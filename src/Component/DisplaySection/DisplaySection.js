@@ -7,8 +7,8 @@ import img1 from "../Assets/grocery/dp-img1.png"
 import img2 from "../Assets/grocery/dp-img2.jpg"
 import img3 from "../Assets/grocery/dp-img3.jpg"
 import img8 from "../Assets/huarapearimagenes/superoferta.png"
-import cherry from "../Assets/grocery/cherry.png"
-import tomato from "../Assets/grocery/tomato-slice.png"
+import chilly from "../Assets/huarapearimagenes/ajirojo.png"
+import tamarindo from "../Assets/huarapearimagenes/tamarindo.png"
 import orange from "../Assets/grocery/orange-slice.png"
 import vodka from "../Assets/huarapearimagenes/smirnoftanaribdo.png"
 
@@ -18,21 +18,23 @@ const DisplaySection = () => {
         <div className='flex gap-[51px]'>
             <div className='display-first-section'>
 
-                <img src={img8} className='absolute left-[230px] bottom-[100px] -z-2' alt='' style={{width: '200px'}}/>
-
-                <div className='absolute right-[40px] top-[20px]'>
-                    <img src={cherry} alt=''/>
+                <div data-aos='zoom-out' data-aos-duration='2000' className='absolute left-[175px] bottom-[50px] z-20'>
+                    <img src={img8}  alt='' style={{width: '250px'}}/>
                 </div>
 
-                <div className='absolute right-[242px] bottom-[60px]'>
-                    <img src={tomato} alt=''/>
+                <div data-aos='fade-down' data-aos-duration='2000' className='absolute right-[40px] top-[20px]'>
+                    <img src={chilly} alt='' style={{width: '150px'}}/>
                 </div>
 
-                <div className=' absolute right-[50px] bottom-[30px]'>
+                <div data-aos='fade-right' data-aos-duration='2000' className='absolute right-[242px] bottom-[60px]'>
+                    <img src={tamarindo} alt='' style={{width: '100px'}}/>
+                </div>
+
+                <div data-aos='fade-left' data-aos-duration='2000' className=' absolute right-[50px] bottom-[30px]'>
                     <img src={orange} alt=''/>
                 </div>
 
-                <div className='absolute left-[-10px] bottom-[-20px]'>
+                <div data-aos='fade-right' data-aos-duration='2000' className='absolute left-[-10px] bottom-[-20px]'>
                     <img src={vodka} alt='' style={{width: '200px'}}/>
                 </div>
 
@@ -51,6 +53,54 @@ const DisplaySection = () => {
 
                 <img src={img1} alt=''/>
             </div>
+
+            <div className='grid gap-[30px]'>
+
+                <div className='relative'>
+                    <div className='content-section-two'>
+                        <h1>Fresh</h1>
+                        <h2>Vegitables</h2>
+
+                        <div className='shop-noow-btn'>
+                            <button>Compra Ahora</button>
+                            <MdDoubleArrow className='ml-1'/>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div className='hover05 column'>
+                            <figure>
+                                <img src={img2} alt=''/>
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className='relative'>
+                    <div className='content-section-three'>
+                        <h1>Freco</h1>
+                        <h2>Tdodoeldia</h2>
+
+                        <div className='shop-now-btn'>
+                            <button>Shop Now</button>
+                            <MdDoubleArrow className='ml-1'/>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className='hover05 column'>
+                            <figure>
+                                <img src={img3} alt=''/>
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     </div>
   )
