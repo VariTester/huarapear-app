@@ -11,6 +11,7 @@ import chilly from "../Assets/huarapearimagenes/ajirojo.png"
 import tamarindo from "../Assets/huarapearimagenes/tamarindo.png"
 import orange from "../Assets/grocery/orange-slice.png"
 import vodka from "../Assets/huarapearimagenes/smirnoftanaribdo.png"
+import { TypeAnimation } from 'react-type-animation';
 
 const DisplaySection = () => {
   return (
@@ -42,7 +43,15 @@ const DisplaySection = () => {
 
                     <h2>SMIRNOFF</h2>
                     <h1>EXIGE LO MEJOR</h1>
-                    <h3>NO TE CONFORMES CON MENOS</h3>
+                    <h3>
+                        <TypeAnimation
+                        sequence={['NO TE CONFORMES CON MENOS', 2000, '']}
+                        speed={50}
+                        repeat={Infinity}
+                        />    
+                        
+                        
+                    </h3>
 
                     <div className='shop-now-btn ml-[250px]'>
                         <button> Comprar Ahora</button>
