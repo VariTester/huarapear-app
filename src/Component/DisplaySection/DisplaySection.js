@@ -4,8 +4,8 @@ import './DisplaySection.css'
 import { MdDoubleArrow } from "react-icons/md";
 
 import img1 from "../Assets/grocery/dp-img1.png"
-import img2 from "../Assets/grocery/dp-img2.jpg"
-import img3 from "../Assets/grocery/dp-img3.jpg"
+import img2 from "../Assets/huarapearimagenes/drinkpoly.png"
+import img3 from "../Assets/huarapearimagenes/bebidas.png"
 import img8 from "../Assets/huarapearimagenes/superoferta.png"
 import chilly from "../Assets/huarapearimagenes/ajirojo.png"
 import tamarindo from "../Assets/huarapearimagenes/tamarindo.png"
@@ -58,10 +58,10 @@ const DisplaySection = () => {
 
                 <div className='relative'>
                     <div className='content-section-two'>
-                        <h1>Fresh</h1>
-                        <h2>Vegitables</h2>
+                        <h1>Juegos</h1>
+                        <h2>de mesa</h2>
 
-                        <div className='shop-noow-btn'>
+                        <div className='shop-now-btn'>
                             <button>Compra Ahora</button>
                             <MdDoubleArrow className='ml-1'/>
                         </div>
@@ -71,7 +71,7 @@ const DisplaySection = () => {
                     <div>
                         <div className='hover05 column'>
                             <figure>
-                                <img src={img2} alt=''/>
+                                <img src={img2} alt='' style={{width: '400px' , height: '200px'}}/>
                             </figure>
                         </div>
                     </div>
@@ -80,11 +80,11 @@ const DisplaySection = () => {
 
                 <div className='relative'>
                     <div className='content-section-three'>
-                        <h1>Freco</h1>
-                        <h2>Tdodoeldia</h2>
+                        <h1>Más bebidas</h1>
+                        {/* <h2>varias</h2> */}
 
                         <div className='shop-now-btn'>
-                            <button>Shop Now</button>
+                            <button>Ver ahora</button>
                             <MdDoubleArrow className='ml-1'/>
                         </div>
                     </div>

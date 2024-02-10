@@ -32,43 +32,44 @@
 
 .shop-now-btn{
     font-weight: 500;
-    color: #41503F;
+    color: #738670;
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .content-section-two{
    position: absolute;
-   left: 30px;
-   top: 40px;
+   left: 20px;
+   top: 2px;
    z-index: 10; 
 }
 
 .content-section-two h1{
-    font-size: 82px;
+    font-size: 60px;
     font-weight: 900;
-    color: #605;
+    color: rgba(102, 0, 85, 0.744);
     line-height: 70px;
 }
 
 .content-section-two h2{
     font-size: 32px;
     font-weight: 900;
-    color: #674F05;
+    color: #9fbf2ccf;
     line-height: 30px;
 }
 
 .content-section-three{
     position: absolute;
-    bottom: 40px;
+    left: 20px;
+    bottom: 150px;
     z-index: 10;
 }
 
 .content-section-three h1{
-    font-size: 82px;
+    font-size: 40px;
     font-weight: 900;
-    color: #b3050290;
+    color: #b30502c8;
     line-height: 70px;
 }
 
@@ -100,7 +101,7 @@ figure{
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     -webkit-transition: .6s ease-in-out;
-    transition: .6 ease-in-out;
+    transition: .6s ease-in-out;
 }
 
 .hover05 figure:hover img{
