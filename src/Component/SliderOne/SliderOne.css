@@ -1,0 +1,122 @@
+.hoverIncrease{
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    transition-duration: .3s;
+}
+
+.hoverIncrease img{
+    height: 220px;
+}
+
+
+.hoverIncrease .content{
+    margin-top: 38px;
+}
+
+.hoverIncrease .content h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.hoverIncrease .content h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #8e0262;
+}
+
+.price-underline{
+    width: 57px;
+    height: 1px;
+    background-color: wheat;
+    margin: 0px auto;
+}
+
+.select-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.hoverIncrease:hover {
+    transform: scale(1.1);
+}
+
+/* 222222222222222222222222222222222222222222222 */
+
+.hoverIncrease2 {
+    padding: 20px;
+    text-align: center;
+    display:grid;
+    justify-content: center;
+    transition-duration: .3s;
+}
+
+.hoverIncrease2  img{
+    height: 220px;
+}
+
+
+.hoverIncrease2 .content{
+    margin-top: 38px;
+}
+
+.hoverIncrease2 .content h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.hoverIncrease2 .content h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #8e0262;
+}
+
+
+.hoverIncrease2:hover {
+    transform: scale(1.1);
+}
+
+/* 3333333333333333333 */
+
+
+.hoverIncrease3 {
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    transition-duration: .3s;
+}
+
+.hoverIncrease3  img{
+    height: 220px;
+}
+
+
+.hoverIncrease3 .content{
+    margin-top: 38px;
+}
+
+.hoverIncrease3 .content h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.hoverIncrease3 .content h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #8e0262;
+}
+
+
+.hoverIncrease3:hover {
+    transform: scale(1.1);
+}
